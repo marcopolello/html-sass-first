@@ -5,3 +5,17 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@mixin myText {
+  display: table;
+  margin: 0px auto;
+  padding: 5px;
+  font-size: $myFontSize;
+  background-color: black;
+  color: $myColor;
+};
+
+@mixin space{
+  padding: $myPad;
+  border: $myBorder;
+}

@@ -1,16 +1,36 @@
 header{
   background-color: $myBckGr1;
-  padding: $myPad;
-  border: $myBorder;
+  @include space;
   h1{
-    color: $myColor;
+    @include myText;
   }
 }
 nav{
-  padding: $myPad;
+  @include space;
   background-color: $myBckGr2;
-  border: $myBorder;
   h1{
-    color: $myColor;
+    @include myText;
+  }
+}
+main{
+  @include space;
+  background-color: $myBckGr1;
+  h1{
+    @include myText;
+    margin-bottom: 20px;
+  }
+  section{
+    @include space;
+    background-color: $myBckGr2;
+    h1{
+      @include myText;
+    }
+  }
+}
+footer{
+  @include space;
+  background-color: purple;
+  h1{
+    @include myText;
   }
 }
