@@ -1,0 +1,7 @@
+footer{
+  @include space;
+  background-color: purple;
+  h1{
+    @include myText;
+  }
+}

@@ -1,0 +1,15 @@
+main{
+  @include space;
+  background-color: $myBckGr1;
+  h1{
+    @include myText;
+    margin-bottom: 20px;
+  }
+  section{
+    @include space;
+    background-color: $myBckGr2;
+    h1{
+      @include myText;
+    }
+  }
+}
