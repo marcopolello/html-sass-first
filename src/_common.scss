@@ -1,3 +1,4 @@
+// regole generali
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +6,7 @@
   text-transform: uppercase;
   text-align: center;
 }
-
+// proprietà per ogni h1
 @mixin myText {
   display: table;
   margin: 0px auto;
@@ -14,7 +15,7 @@
   background-color: black;
   color: $myColor;
 };
-
+// spazi nei macroblocchi
 @mixin space{
   padding: $myPad;
   border: $myBorder;
