@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header {
+  background-color: green;
+  padding: 50px;
+  border: 3px solid black;
+}
+
+header h1 {
+  color: yellow;
+}
+
+nav {
+  padding: 50px;
+  background-color: blue;
+  border: 3px solid black;
+}
+
+nav h1 {
+  color: yellow;
+}
+
